@@ -1,0 +1,23 @@
+/*ie7 & ie8 fix for arrows*/
+
+.arrow{
+  width: 20px;
+  height: 20px;
+  position:absolute;
+  top:50%;
+  z-index:5;
+ border: 2px solid red;
+
+}
+
+.arrow:hover{border-color:red;}
+
+.arrow-left{
+  left:20px;
+  
+}
+
+.arrow-right{
+  right:20px;
+  
+}
