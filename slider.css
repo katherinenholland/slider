@@ -97,8 +97,11 @@ html, body{
 	margin: 5px;
 	background: #fff;
 	list-style-type: none;
-  cursor:pointer;
-  transition:background 0.3s ease-out;
+  	cursor:pointer;
+  	transition:background-color 0.3s ease-out;
+  	-webkit-transition: background-color 0.3s ease-out 1s;
+    -moz-transition: background-color 0.3s ease-out 1s;
+    -o-transition: background-color 0.3s ease-out 1s;
 }
 
 .indicators li.active{background: red;}
@@ -114,7 +117,11 @@ html, body{
   border-top:3px solid #fff;
   border-right:3px solid #fff;
   cursor:pointer;
-  transition:border-color 0.3s ease-out;
+  transition:border-color 0.3s ease-out 1s;
+  -webkit-transition: background-color 0.3s ease-out 1s;
+    -moz-transition: background-color 0.3s ease-out 1s;
+    -o-transition: background-color 0.3s ease-out 1s;
+
 }
 
 .arrow:hover{border-color:red;}
