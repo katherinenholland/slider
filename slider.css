@@ -129,11 +129,15 @@ html, body{
 .arrow-left{
   left:20px;
   transform:rotate(225deg);
+  -ms-transform: rotate(225deg); /* IE 9 */
+  -webkit-transform: rotate(225deg); /* Chrome, Safari, Opera */
 }
 
 .arrow-right{
   right:20px;
   transform:rotate(45deg);
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
 }
 
 /**
