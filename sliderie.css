@@ -23,5 +23,5 @@
 }
 
 .indicators {
-  display: inline;
+  display: inline-block;
 }
