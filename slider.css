@@ -81,6 +81,9 @@ html, body{
 //add transition fixes
 .transition .slide{
 	transition-property: right, left, margin;
+	-webkit-transition-property: right, left, margin;
+    -moz-transition-property: right, left, margin;
+    -o-transition-property: right, left, margin;
 }
 
 .indicators{
