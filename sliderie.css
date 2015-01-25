@@ -14,14 +14,20 @@
 
 .arrow-left{
   left:20px;
+  background: url('leftArrow.png');
   
 }
 
 .arrow-right{
   right:20px;
+  background: url('rightArrow.png');
   
 }
 
 .indicators {
   display: inline-block;
 }
+
+  #id1, #id2, #id3 {
+  background: #000;
+ }
