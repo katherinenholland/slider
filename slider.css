@@ -99,9 +99,9 @@ html, body{
 	list-style-type: none;
   	cursor:pointer;
   	transition:background-color 0.3s ease-out;
-  	-webkit-transition: background-color 0.3s ease-out 1s;
-    -moz-transition: background-color 0.3s ease-out 1s;
-    -o-transition: background-color 0.3s ease-out 1s;
+  	-webkit-transition: background-color 0.3s ease-out;
+    -moz-transition: background-color 0.3s ease-out;
+    -o-transition: background-color 0.3s ease-out;
 }
 
 .indicators li.active{background: red;}
@@ -117,10 +117,10 @@ html, body{
   border-top:3px solid #fff;
   border-right:3px solid #fff;
   cursor:pointer;
-  transition:border-color 0.3s ease-out 1s;
-  -webkit-transition: background-color 0.3s ease-out 1s;
-    -moz-transition: background-color 0.3s ease-out 1s;
-    -o-transition: background-color 0.3s ease-out 1s;
+  transition:border-color 0.3s ease-out;
+  -webkit-transition: background-color 0.3s ease-out;
+    -moz-transition: background-color 0.3s ease-out;
+    -o-transition: background-color 0.3s ease-out;
 
 }
 
