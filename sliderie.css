@@ -6,22 +6,24 @@
   position:absolute;
   top:50%;
   z-index:5;
- border: 2px solid red;
-
 }
 
 .arrow:hover{border-color:red;}
 
 .arrow-left{
   left:20px;
-  background: url('leftArrow.png');
+  background: url('leftArrow.png') no-repeat;
   
 }
 
 .arrow-right{
   right:20px;
-  background: url('rightArrow.png');
+  background: url('rightArrow.png') no-repeat;
   
+}
+
+.arrow-right:hover{
+	background: url('rightArrowHover.png') no-repeat;
 }
 
 .indicators {
