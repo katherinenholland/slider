@@ -25,3 +25,7 @@
 .indicators {
   display: inline-block;
 }
+
+ #id1, #id2, #id3 {
+  background: #000;
+ }

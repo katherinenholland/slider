@@ -1,9 +1,4 @@
 
-html, body{
-	background: #eee;
-	width: 100%;
-}
-
 .wrapper{
   width:1000px;
   position:relative;
@@ -25,18 +20,6 @@ html, body{
 	left: 0;
 }
 
-/**
- * ==========================
- * Animation styles
- * 
- * Notes:
- * 1. We use z-index to position active slides in-front 
- * of non-active slides
- * 2. We set right:0 and left:0 on .slide to provide us with
- * a default positioning on both sides of the slide. This allows 
- * us to trigger JS and CSS3 animations easily
- *
- */
 .slide{
 	width: 100%;
 	height: 100%;
@@ -140,17 +123,10 @@ html, body{
   -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
 }
 
-/**
- * ==========================
- * For demo purposes only
- * 
- * Please note that the styles below are used
- * for the purposes of this demo only. There is no need
- * to use these in any of your own projects
- *
- */
+/*TEST DEMO STYLES*/
+
 .slide{
-	text-align:center;
+  text-align:center;
   padding-top:25%;
   background-size:cover;
 }
@@ -176,8 +152,4 @@ h1{
 
 .slide:nth-child(3){
 	background: #000 url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/163697/slide-3.jpg);
- }
-
- #id1, #id2, #id3 {
- 	background: #000;
  }
