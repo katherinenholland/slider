@@ -8,22 +8,26 @@
   z-index:5;
 }
 
-.arrow:hover{border-color:red;}
+.arrow:hover{border-color:none;}
 
 .arrow-left{
   left:20px;
   background: url('leftArrow.png') no-repeat;
-  
+  border: none;
 }
 
 .arrow-right{
   right:20px;
   background: url('rightArrow.png') no-repeat;
-  
+  border: none;
 }
 
 .arrow-right:hover{
 	background: url('rightArrowHover.png') no-repeat;
+}
+
+.arrow-left:hover{
+	background: url('leftArrowHover.png') no-repeat;
 }
 
 .indicators {
